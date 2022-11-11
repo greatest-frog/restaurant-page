@@ -1,9 +1,9 @@
 export const Header = (() => {
   const header = document.createElement("header");
 
-  const h1 = document.createElement("h1");
-  h1.textContent = "Restaurant";
-  header.appendChild(h1);
+  const name = document.createElement("h1");
+  name.textContent = "Restaurant";
+  header.appendChild(name);
 
   const info = document.createElement("div");
   info.classList.add("info");
@@ -11,7 +11,7 @@ export const Header = (() => {
   const logoLink = document.createElement("a");
   logoLink.classList.add("github");
   const githubImage = document.createElement("img");
-  githubImage.src = "./GitHub-Mark-Light-32px.png";
+  githubImage.src = "./images/GitHub-Mark-Light-32px.png";
   githubImage.alt = "Github logo";
   logoLink.appendChild(githubImage);
   logoLink.href = "https://github.com/greatest-frog";
